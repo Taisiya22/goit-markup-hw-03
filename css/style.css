@@ -65,6 +65,7 @@ body {
   background-color: var(--white-text-color);
 }
 .logo {
+  padding: 32px 0px;
   margin-right: 93px;
   color: var(--black-text-color);
   font-family: 'Raleway', sans-serif;
@@ -78,6 +79,7 @@ body {
   color: var(--accent-color);
 }
 .logo-web {
+  padding: 32px 0px;
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -100,8 +102,7 @@ body {
 }
 .site-nav .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0px;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -123,6 +124,7 @@ body {
   margin-right: 50px;
 }
 .contact-nav .link {
+  padding: 32px 0px;
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -138,13 +140,11 @@ body {
 }
 /* section hero */
 .hero {
+  padding-top: 200px 0px;
+  text-align: center;
   background-color: var(--footer-hero-background-color);
 }
-.hero-wrapper {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
+
 .hero-title {
   max-width: 696px;
   margin-bottom: 30px;
@@ -278,11 +278,8 @@ body {
 }
 /* footer */
 .footer {
+  padding: 60px 0px;
   background-color: var(--footer-hero-background-color);
-}
-.footer-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--white-text-color);
@@ -296,7 +293,7 @@ body {
 .footer-logo:focus {
   color: var(--accent-color);
 }
-.footer-contact {
+.address {
   margin-top: 20px;
 }
 .footer-contact .item:not(:last-child) {
